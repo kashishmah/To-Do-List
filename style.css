@@ -1,0 +1,31 @@
+body {
+    background-color: #f5f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#taskList li {
+    margin-bottom: 10px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+#taskList li:hover {
+    background-color: #f1f1f1;
+}
+
+.task-item button {
+    transition: transform 0.2s ease;
+}
+
+.task-item button:hover {
+    transform: scale(1.1);
+}
+
+#taskname {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
